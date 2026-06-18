@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python _rewrite_answers.py)",
+      "Bash(python -c \"import json; json.load\\(open\\('notebooks/notebook_8.ipynb',encoding='utf-8'\\)\\); print\\('valid json'\\)\")",
+      "Bash(rm _rewrite_answers.py)"
+    ]
+  }
+}
